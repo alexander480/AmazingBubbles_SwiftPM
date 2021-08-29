@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/master.swiftdeps"
+  },
+  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Constants/Constants.swift": {
+    "dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.d",
+    "object": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.swift.o",
+    "swiftmodule": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.swiftdeps"
+  },
+  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Protocols/BubbleViewProtocols.swift": {
+    "dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.d",
+    "object": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.swift.o",
+    "swiftmodule": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.swiftdeps"
+  },
+  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/BubbleView.swift": {
+    "dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.d",
+    "object": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.swift.o",
+    "swiftmodule": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView~partial.swiftmodule",
+    "swift-dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.swiftdeps"
+  },
+  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/ContentBubblesView.swift": {
+    "dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.d",
+    "object": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.swift.o",
+    "swiftmodule": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView~partial.swiftmodule",
+    "swift-dependencies": "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.swiftdeps"
+  }
+}

@@ -1,0 +1,41 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "AmazingBubbles_SwiftPM-debug.module": ["<AmazingBubbles_SwiftPM-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<AmazingBubbles_SwiftPM-debug.module>"]
+  "test": ["<AmazingBubbles_SwiftPM-debug.module>"]
+default: "main"
+nodes:
+  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/":
+    is-directory-structure: true
+commands:
+  "<AmazingBubbles_SwiftPM-debug.module>":
+    tool: phony
+    inputs: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.swiftmodule"]
+    outputs: ["<AmazingBubbles_SwiftPM-debug.module>"]
+
+  "C.AmazingBubbles_SwiftPM-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Constants/Constants.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Protocols/BubbleViewProtocols.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/BubbleView.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/ContentBubblesView.swift"]
+    outputs: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.swiftmodule"]
+    executable: "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "AmazingBubbles_SwiftPM"
+    module-output-path: "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.swiftmodule"
+    import-paths: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug"]
+    temps-path: "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build"
+    objects: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Constants/Constants.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Protocols/BubbleViewProtocols.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/BubbleView.swift.o","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/Views/ContentBubblesView.swift.o"]
+    other-args: ["-target","arm64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk","-F","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/AmazingBubbles_SwiftPM-Swift.h","-color-diagnostics"]
+    sources: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Constants/Constants.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Protocols/BubbleViewProtocols.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/BubbleView.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/ContentBubblesView.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Package.swift","/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
