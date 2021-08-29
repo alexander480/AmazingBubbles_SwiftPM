@@ -1,0 +1,4 @@
+module AmazingBubbles {
+    header "/Users/awllwa/Current Projects/AmazingBubbles/.build/arm64-apple-macosx/debug/AmazingBubbles.build/AmazingBubbles-Swift.h"
+    requires objc
+}

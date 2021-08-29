@@ -1,4 +1,0 @@
-module AmazingBubbles_SwiftPM {
-    header "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/.build/arm64-apple-macosx/debug/AmazingBubbles_SwiftPM.build/AmazingBubbles_SwiftPM-Swift.h"
-    requires objc
-}

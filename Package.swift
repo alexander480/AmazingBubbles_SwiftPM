@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "AmazingBubbles_SwiftPM",
+    name: "AmazingBubbles",
     platforms: [
         .iOS(.v12),
     ],
     products: [
         .library(
-            name: "AmazingBubbles_SwiftPM",
-            targets: ["AmazingBubbles_SwiftPM"]),
+            name: "AmazingBubbles",
+            targets: ["AmazingBubbles"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
         .target(
-            name: "AmazingBubbles_SwiftPM"
+            name: "AmazingBubbles"
         )
     ]
 )

@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.5 (swiftlang-1300.0.29.102 clang-1300.0.28.1)"
-options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1630196259, 169435977]
-build_end_time: [1630196260, 361250877]
-inputs:
-  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Constants/Constants.swift": [1630195926, 22587060]
-  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Protocols/BubbleViewProtocols.swift": [1630195909, 958192825]
-  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/BubbleView.swift": [1630195927, 33130645]
-  "/Users/awllwa/Current Projects/AmazingBubbles_SwiftPM/Sources/AmazingBubbles_SwiftPM/Views/ContentBubblesView.swift": [1630195928, 262408494]
